@@ -14,3 +14,9 @@ A: No, and not hot dogs.
    Code for the app is in: SeeFood/SeeFood/ViewController.swift
    
    This project utilizes Google's Inception v3 model for image classification and Apple's Core ML framework for machine learning.
+
+<img src="https://lareviewofbooks-org-cgwbfgl6lklqqj3f4t3.netdna-ssl.com/wp-content/uploads/2018/05/silicon.feat_.jpg">
+
+Peace out,
+
+Your Asiatic Friend
