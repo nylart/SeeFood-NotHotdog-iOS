@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CDB99461223F4C6C00E72AEB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDB99460223F4C6B00E72AEB /* Default-568h@2x.png */; };
+		CDBFDF90223F5DEA003AA4C1 /* Hotdog.png in Resources */ = {isa = PBXBuildFile; fileRef = CDBFDF8F223F5DEA003AA4C1 /* Hotdog.png */; };
+		CDBFDF92223F5E0B003AA4C1 /* NotHotdog in Resources */ = {isa = PBXBuildFile; fileRef = CDBFDF91223F5E0B003AA4C1 /* NotHotdog */; };
+		CDBFDF94223F666A003AA4C1 /* appicon.png in Resources */ = {isa = PBXBuildFile; fileRef = CDBFDF93223F666A003AA4C1 /* appicon.png */; };
+		CDBFDF96223F672D003AA4C1 /* StartScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = CDBFDF95223F672D003AA4C1 /* StartScreen.png */; };
 		CDFD6930223F364E002531A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFD692F223F364E002531A6 /* AppDelegate.swift */; };
 		CDFD6932223F364E002531A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFD6931223F364E002531A6 /* ViewController.swift */; };
 		CDFD6935223F364E002531A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDFD6933223F364E002531A6 /* Main.storyboard */; };
@@ -16,6 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CDB99460223F4C6B00E72AEB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CDBFDF8F223F5DEA003AA4C1 /* Hotdog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Hotdog.png; path = Assets.xcassets/Hotdog.png; sourceTree = "<group>"; };
+		CDBFDF91223F5E0B003AA4C1 /* NotHotdog */ = {isa = PBXFileReference; lastKnownFileType = file; name = NotHotdog; path = Assets.xcassets/NotHotdog; sourceTree = "<group>"; };
+		CDBFDF93223F666A003AA4C1 /* appicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = appicon.png; path = Assets.xcassets/appicon.png; sourceTree = "<group>"; };
+		CDBFDF95223F672D003AA4C1 /* StartScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = StartScreen.png; path = Assets.xcassets/StartScreen.png; sourceTree = "<group>"; };
 		CDFD692C223F364E002531A6 /* SeeFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeeFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDFD692F223F364E002531A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDFD6931223F364E002531A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,6 +50,7 @@
 		CDFD6923223F364E002531A6 = {
 			isa = PBXGroup;
 			children = (
+				CDB99460223F4C6B00E72AEB /* Default-568h@2x.png */,
 				CDFD692E223F364E002531A6 /* SeeFood */,
 				CDFD692D223F364E002531A6 /* Products */,
 			);
@@ -56,6 +67,10 @@
 		CDFD692E223F364E002531A6 /* SeeFood */ = {
 			isa = PBXGroup;
 			children = (
+				CDBFDF93223F666A003AA4C1 /* appicon.png */,
+				CDBFDF95223F672D003AA4C1 /* StartScreen.png */,
+				CDBFDF91223F5E0B003AA4C1 /* NotHotdog */,
+				CDBFDF8F223F5DEA003AA4C1 /* Hotdog.png */,
 				CDFD6941223F459E002531A6 /* Inceptionv3.mlmodel */,
 				CDFD692F223F364E002531A6 /* AppDelegate.swift */,
 				CDFD6931223F364E002531A6 /* ViewController.swift */,
@@ -125,8 +140,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDBFDF96223F672D003AA4C1 /* StartScreen.png in Resources */,
+				CDBFDF94223F666A003AA4C1 /* appicon.png in Resources */,
+				CDBFDF90223F5DEA003AA4C1 /* Hotdog.png in Resources */,
 				CDFD693A223F364F002531A6 /* LaunchScreen.storyboard in Resources */,
+				CDBFDF92223F5E0B003AA4C1 /* NotHotdog in Resources */,
 				CDFD6937223F364F002531A6 /* Assets.xcassets in Resources */,
+				CDB99461223F4C6C00E72AEB /* Default-568h@2x.png in Resources */,
 				CDFD6935223F364E002531A6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,7 +173,8 @@
 				CDFD6934223F364E002531A6 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
+			path = SeeFood;
+			sourceTree = SOURCE_ROOT;
 		};
 		CDFD6938223F364F002531A6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -288,7 +309,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LS9FWY75N5;
-				INFOPLIST_FILE = NotHotdog/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SeeFood/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,7 +327,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LS9FWY75N5;
-				INFOPLIST_FILE = NotHotdog/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SeeFood/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

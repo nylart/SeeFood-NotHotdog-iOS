@@ -2,6 +2,14 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>CFBundleIconFiles</key>
+	<array>
+		<string>appicon.png</string>
+	</array>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>How else are you going to know if it&apos;s a hot dog?</string>
+	<key>NSCameraUsageDescription</key>
+	<string>How else are you going to know if it&apos;s a hot dog?</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
